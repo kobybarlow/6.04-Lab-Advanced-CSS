@@ -4,6 +4,11 @@ body {
 
 .title {
   background-color: #666666;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #000000;
+  text-align: center;
 }
 
 
@@ -15,4 +20,41 @@ body {
   padding: 5px;
   border: 1px solid #666666;
   vertical-align: top;
+}
+
+.offer-title {
+  background-color: #dddddd;
+  padding: 8px;
+  font-weight: bold;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.offer-content {
+  padding: 20px;
+}
+
+.final-costs {
+  background-color: #19191a;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  border-top: 2px solid #000000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+td:last-child {
+  text-align: right;
 }
